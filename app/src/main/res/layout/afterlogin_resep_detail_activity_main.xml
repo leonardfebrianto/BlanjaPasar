@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mobile.belanjapasar.afterlogin.AfterLogin_ResepDetail">
+
+    <!-- ====================================================================================== -->
+    <LinearLayout
+        android:id="@+id/home_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorOrange"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/sp_product_category"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="3dp" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/btn_cart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_margin="3dp"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            android:src="@drawable/ic_shopping_cart"
+            android:background="@color/colorOrange"/>
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/btn_lacak"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_margin="3dp"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            android:src="@drawable/ic_tracking_order"
+            android:background="@color/colorOrange"/>
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/btn_resep"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_margin="3dp"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            android:src="@drawable/ic_resep2"
+            android:background="@color/colorOrange"/>
+
+    </LinearLayout>
+
+    <!-- ====================================================================================== -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+            <include layout="@layout/afterlogin_resep_detail_content_main" />
+
+    </LinearLayout>
+
+    <!-- ====================================================================================== -->
+
+    <LinearLayout
+        android:id="@+id/home_footer"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorOrange"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/btn_test1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:background="@color/colorOrange"/>
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/btn_test2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:background="@color/colorOrange"/>
+
+        <Button
+            android:id="@+id/btn_copy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:text="Tambahkan"/>
+
+    </LinearLayout>
+
+    <!-- ====================================================================================== -->
+
+</LinearLayout>

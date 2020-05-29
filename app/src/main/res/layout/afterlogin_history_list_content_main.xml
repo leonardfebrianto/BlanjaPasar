@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.mobile.belanjapasar.activity.Alamat"
+    tools:showIn="@layout/afterlogin_history_list_activity_main">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- =================================================================================== -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ORDER"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="TGL TERIMA"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="STATUS"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:text="NILAI"
+                android:gravity="center"
+                android:textStyle="bold"/>
+        </TableRow>
+
+        <!-- =================================================================================== -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/lbl_no_order1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1234 0001"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textColor="@color/colorRed"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="14/02/2016"
+                android:layout_margin="10dp"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/lbl_status1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="antar"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textColor="@color/colorBlue"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:text="Rp 500.000,-"
+                android:gravity="center"/>
+        </TableRow>
+
+        <!-- =================================================================================== -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/lbl_no_order2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1234 0002"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textColor="@color/colorRed"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="14/02/2016"
+                android:layout_margin="10dp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="sebagian"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textColor="@color/colorOrange"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:text="Rp 300.000,-"
+                android:gravity="center"/>
+        </TableRow>
+
+        <!-- =================================================================================== -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/lbl_no_order3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1234 0003"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textColor="@color/colorRed"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="14/02/2016"
+                android:layout_margin="10dp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="kembali"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textColor="@color/colorOrange"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:text="Rp 400.000,-"
+                android:gravity="center"/>
+        </TableRow>
+
+        <!-- =================================================================================== -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/lbl_no_order4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1234 0004"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textColor="@color/colorRed"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="14/02/2016"
+                android:layout_margin="10dp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="terima"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textColor="@color/colorOrange"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:text="Rp 500.000,-"
+                android:gravity="center"/>
+        </TableRow>
+
+
+        <!-- =================================================================================== -->
+    </TableLayout>
+</LinearLayout>

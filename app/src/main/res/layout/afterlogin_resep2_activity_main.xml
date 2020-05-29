@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mobile.belanjapasar.afterlogin.AfterLogin_Resep2">
+
+    <!-- ====================================================================================== -->
+    <LinearLayout
+        android:id="@+id/home_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorOrange"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/sp_product_category"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.35"
+            android:layout_margin="3dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/ti_search"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.55"
+            android:layout_margin="3dp"
+            android:hint="Cari Produk"/>
+
+        <ImageButton
+            android:id="@+id/btn_searchproduct"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:scaleType="fitCenter"
+            android:padding="5dp"
+            android:layout_margin="3dp"
+            android:src="@drawable/ic_search_product"
+            android:background="@color/colorOrange"/>
+
+    </LinearLayout>
+
+    <!-- ====================================================================================== -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/afterlogin_resep2_content_main" />
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+    <!-- ====================================================================================== -->
+
+    <LinearLayout
+        android:id="@+id/home_footer"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorOrange"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/btn_cart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_shopping_cart"
+            android:scaleType="fitCenter"
+            android:background="@color/colorOrange" />
+
+        <ImageButton
+            android:id="@+id/btn_lacak"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            android:src="@drawable/ic_tracking_order"
+            android:background="@color/colorOrange"/>
+
+        <ImageButton
+            android:id="@+id/btn_resep"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            android:src="@drawable/ic_resep2"
+            android:background="@color/colorOrange"/>
+
+    </LinearLayout>
+
+    <!-- ====================================================================================== -->
+
+</LinearLayout>
